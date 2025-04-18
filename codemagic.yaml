@@ -1,0 +1,11 @@
+
+workflows:
+  junkdrawer-ios:
+    name: Build Junk Drawer iOS
+    environment:
+      xcode: latest
+    scripts:
+      - name: Build app
+        script: xcodebuild -scheme junkdrawer-ios -sdk iphoneos -configuration Release
+    artifacts:
+      - build/ios/Release/*.ipa
