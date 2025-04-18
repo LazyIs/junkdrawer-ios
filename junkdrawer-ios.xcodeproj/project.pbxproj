@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD3D006BFB54 /* junkdrawer_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60589C0D05DD3D006BFB54 /* junkdrawer_iosApp.swift */; };
+		1D60589D0D05DD3D006BFB54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60589E0D05DD3D006BFB54 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D60589C0D05DD3D006BFB54 /* junkdrawer_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkdrawer_iosApp.swift; sourceTree = "<group>"; };
+		1D60589E0D05DD3D006BFB54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D60589F0D05DD3D006BFB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D60588D0D05DD3D006BFB54 = {
+			isa = PBXGroup;
+			children = (
+				1D60589C0D05DD3D006BFB54 /* junkdrawer_iosApp.swift */,
+				1D60589E0D05DD3D006BFB54 /* ContentView.swift */,
+				1D60589F0D05DD3D006BFB54 /* Info.plist */,
+			);
+			path = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D60588E0D05DD3D006BFB54 /* JunkDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D60588F0D05DD3D006BFB54;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JunkDrawer;
+			productName = JunkDrawer;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6058900D05DD3D006BFB54 = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Junk Drawer";
+			};
+			buildConfigurationList = 1D6058910D05DD3D006BFB54;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				fr,
+				Base,
+			);
+			mainGroup = 1D60588D0D05DD3D006BFB54;
+			productRefGroup = 1D60588D0D05DD3D006BFB54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D60588E0D05DD3D006BFB54,
+			);
+		};
+/* End PBXProject section */
+
+	};
+	rootObject = 1D6058900D05DD3D006BFB54;
+}
